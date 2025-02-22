@@ -17,7 +17,45 @@ public class Account {
         this.email = email;
     }
 
-    // TODO: Add getters and setters
+    public Integer getId() {
+        return id;
+    }
+
+    public String getAccountHolderName() {
+        return accountHolderName;
+    }
+
+    public String getAccountType() {
+        return accountType;
+    }
+
+    public Double getBalance() {
+        return balance;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+// TODO: Add getters and setters
 
 
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public void setAccountHolderName(String accountHolderName) {
+        this.accountHolderName = accountHolderName;
+    }
+
+    public void setAccountType(String accountType) {
+        this.accountType = accountType;
+    }
+
+    public void setBalance(Double balance) {
+        this.balance = balance;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
 }
